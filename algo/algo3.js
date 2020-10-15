@@ -5,6 +5,8 @@
 */
 
 function sumNumbers(numArray) {
+    const reducer = (accumulator, currentValue) => accumulator + currentValue;
+    return numArray.reduce(reducer);
 
 }
 

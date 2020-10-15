@@ -5,8 +5,10 @@
  */
 
 function addItemsPosition(strArray) {
+  return strArray.map((strpos, index) => index+1 +"."+strpos);
 
 }
+ 
 
 
 // Exemples d'appel pour vérifier
